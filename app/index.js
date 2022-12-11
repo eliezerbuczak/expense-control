@@ -17,7 +17,7 @@ const iterarUsuarios = function (listaDeUsuarios) {
     }
 };
 
-
+//verifica se o usuario está cadastrado no sistema
 function verificarUsuario() {
     iterarUsuarios(usuarios);
     if (loginValido === true) {
